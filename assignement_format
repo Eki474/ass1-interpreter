@@ -1,0 +1,6 @@
+tar czf submission.tgz ass1-int
+
+tar xzf submission.tgz
+cd ass1-int
+make
+./int testcase.lua
